@@ -1,0 +1,8 @@
+body {
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+}
+.post {
+    background-color: white;
+}
