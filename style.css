@@ -1,8 +1,62 @@
 body {
-    background-color: yellow;
+    background-color: black;
     display:flex;
     justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif
 }
 .post {
     background-color: white;
+    width: 300px;
+    *margin:auto;*
 }
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-left i{
+    font-size: 22px;
+}
+
+.header-right i{
+    font-size: 18px;
+}
+.post-img{
+    width: 100%;
+    height: 200px;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icons-left i,
+.icons-right i{
+    font-size: 22px;
+    margin-right: 8px;
+}
+.post-text{
+    padding: 0 10px;
+}
+
+.likes{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
